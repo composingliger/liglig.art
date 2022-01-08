@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-image: url("images/memphis.png");
+    background-repeat: repeat;
+}
+
+#main {
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 512px 16px 0;
+    background-color: #2184D9;
+    background-image: url("images/ligroll.png");
+    background-repeat: no-repeat;
+    border: solid 8px black;
+    border-radius: 2px;
+    box-shadow: 8px 8px #333333;
+    width: 512px;
+}
+
+#main > ul {
+    list-style: none;
+    padding: 0;
+}
+
+a:link, a:active, a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #66ACE8;
+}
