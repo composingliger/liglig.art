@@ -26,6 +26,24 @@ body {
     padding: 0;
 }
 
+#main > ul li {
+    line-height: 28px;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+}
+
+li.twitter {
+    background-image: url("images/twitter.svg");
+}
+
+li.furaffinity {
+    background-image: url("images/furaffinity.svg");
+}
+
+li.github {
+    background-image: url("images/github.svg");
+}
+
 a:link, a:active, a:visited {
     color: white;
 }
