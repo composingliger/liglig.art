@@ -2,7 +2,6 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
     background-image: url("images/memphis.png");
     background-repeat: repeat;
 }
@@ -12,12 +11,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 512px 16px 0;
-    background-color: #2184D9;
+    background-color: #fffc;
     background-image: url("images/ligroll.png");
     background-repeat: no-repeat;
     border: solid 8px black;
     border-radius: 2px;
-    box-shadow: 8px 8px #333333;
+    box-shadow: 8px 8px #333;
     width: 512px;
 }
 
@@ -42,12 +41,4 @@ li.furaffinity {
 
 li.github {
     background-image: url("images/github.svg");
-}
-
-a:link, a:active, a:visited {
-    color: white;
-}
-
-a:hover {
-    color: #66ACE8;
 }
