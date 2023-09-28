@@ -1,17 +1,15 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-image: url("images/memphis.png");
     background-repeat: repeat;
 }
 
 #main {
-    margin-top: 24px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 512px 16px 0;
-    background-color: #fffc;
+    padding: 512px 0 0;
+    margin: 64px auto 0;
+    background-color: #ffffffd7;
     background-image: url("images/ligroll.png");
     background-repeat: no-repeat;
     border: solid 8px black;
@@ -20,15 +18,59 @@ body {
     width: 512px;
 }
 
-#main > ul {
-    list-style: none;
+#main h1 {
     padding: 0;
+    margin: 4px 0;
+    font-family: "Mooli", sans-serif;
+    text-align: center;
 }
 
-#main > ul li {
-    line-height: 28px;
-    padding-left: 28px;
+#main > ul {
+    list-style: none;
+    margin: 0;
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main li {
+    padding: 0 0;
+    margin: 0;
     background-repeat: no-repeat;
+    background-position: 1em;
+    flex: 50%;
+}
+
+#main a {
+    display: block;
+    color: black;
+    border: solid 3px black;
+    border-radius: 4px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+    margin: 4px 4px;
+    transition: color 1s, border-color 1s;
+}
+
+#main li:nth-child(3n) a:hover {
+    color: #D1439E;
+    border-color: #D1439E;
+    transition: color 100ms, border-color 100ms;
+}
+
+#main li:nth-child(3n + 1) a:hover {
+    color: #9724F8;
+    border-color: #9724F8;
+    transition: color 100ms, border-color 100ms;
+}
+
+#main li:nth-child(3n + 2) a:hover {
+    color: #38CD2C;
+    border-color: #38CD2C;
+    transition: color 100ms, border-color 100ms;
 }
 
 li.twitter {
