@@ -64,21 +64,27 @@ section a {
     transition: color 1s, border-color 1s;
 }
 
-section > ul > li:nth-child(3n) a:hover {
+section > ul > li:nth-child(4n) a:hover {
     color: #D1439E;
     border-color: #D1439E;
     transition: color 100ms, border-color 100ms;
 }
 
-section > ul > li:nth-child(3n + 1) a:hover {
+section > ul > li:nth-child(4n + 1) a:hover {
     color: #9724F8;
     border-color: #9724F8;
     transition: color 100ms, border-color 100ms;
 }
 
-section > ul > li:nth-child(3n + 2) a:hover {
+section > ul > li:nth-child(4n + 2) a:hover {
     color: #38CD2C;
     border-color: #38CD2C;
+    transition: color 100ms, border-color 100ms;
+}
+
+section > ul > li:nth-child(4n + 3) a:hover {
+    color: #E3854B;
+    border-color: #E3854B;
     transition: color 100ms, border-color 100ms;
 }
 
