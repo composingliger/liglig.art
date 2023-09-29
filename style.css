@@ -9,7 +9,7 @@ body {
 section {
     padding: 0;
     margin: 64px auto 0;
-    width: 512px;
+    max-width: 512px;
     background-color: #ffffffd7;
     border: solid 8px black;
     border-radius: 2px;
@@ -22,13 +22,9 @@ section {
     }
 }
 
-section > div {
-    padding: 512px 0 0;
-    margin: 0;
-    background-image: url("images/ligroll.png");
-    background-repeat: no-repeat;
+section > img {
+    max-width: 100%;
 }
-
 
 section h1 {
     padding: 0;
@@ -37,7 +33,7 @@ section h1 {
     text-align: center;
 }
 
-section > div > ul {
+section > ul {
     list-style: none;
     margin: 0;
     padding: 4px;
@@ -45,12 +41,13 @@ section > div > ul {
     flex-wrap: wrap;
 }
 
-section > div > ul > li {
+section > ul > li {
     padding: 0 0;
     margin: 0;
     background-repeat: no-repeat;
     background-position: 1em;
-    flex: 50%;
+    flex: 200px;
+    flex-grow: 1;
 }
 
 section a {
@@ -67,19 +64,19 @@ section a {
     transition: color 1s, border-color 1s;
 }
 
-section > div > ul > li:nth-child(3n) a:hover {
+section > ul > li:nth-child(3n) a:hover {
     color: #D1439E;
     border-color: #D1439E;
     transition: color 100ms, border-color 100ms;
 }
 
-section > div > ul > li:nth-child(3n + 1) a:hover {
+section > ul > li:nth-child(3n + 1) a:hover {
     color: #9724F8;
     border-color: #9724F8;
     transition: color 100ms, border-color 100ms;
 }
 
-section > div > ul > li:nth-child(3n + 2) a:hover {
+section > ul > li:nth-child(3n + 2) a:hover {
     color: #38CD2C;
     border-color: #38CD2C;
     transition: color 100ms, border-color 100ms;
